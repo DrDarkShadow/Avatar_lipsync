@@ -1,8 +1,6 @@
 
 ## 1. Installation.
 
-Community tutorials: [中文Windows教程 (Chinese Windows tutorial)](https://www.bilibili.com/video/BV1Dc411W7V6/) | [日本語コース (Japanese tutorial)](https://br-d.fanbox.cc/posts/5685086).
-
 ### Linux/Unix
 
 1. Install [Anaconda](https://www.anaconda.com/), Python and `git`.
@@ -35,7 +33,7 @@ A video tutorial in chinese is available [here](https://www.bilibili.com/video/B
 2. Install [git](https://git-scm.com/download/win) manually or using [Scoop](https://scoop.sh/): `scoop install git`.
 3. Install `ffmpeg`, following [this tutorial](https://www.wikihow.com/Install-FFmpeg-on-Windows) or using [scoop](https://scoop.sh/): `scoop install ffmpeg`.
 4. Download the SadTalker repository by running `git clone https://github.com/DrDarkShadow/Avatar_lipsync.git`.
-5. Download the checkpoints, model and extra files in the [downloads section](#2-download-models).
+5. Download the checkpoints, model and extra files in the [downloads section](https://drive.google.com/file/d/1UFRp29TVB7TqZxG-InEbdZJtXOISLqwo/view?usp=sharing).
 
 
 Model explains:
