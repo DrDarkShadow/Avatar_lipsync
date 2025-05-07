@@ -1,0 +1,22 @@
+terminal commands :-
+
+command to generate the avatar video:-
+python inference.py \
+  --source_image <path_to_your_image> \
+  --driven_audio <path_to_your_audio> \
+  --size 256 \
+  --ref_eyeblink <path_to_your_blink_video> \                <-- This is optional (to add blink)
+  --result_dir ./results \
+  --still \
+  --preprocess (crop or full) \
+  --enhancer gfpgan \
+  --background_enhancer None \
+  --pose_style 0 \
+  --expression_scale 1.0 \
+  --use_fp16 \
+  --use_jit
+
+command to check cuda version
+nvcc --version
+
+  cuda version of pytorch installation command : pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
