@@ -25,7 +25,7 @@ imageio-ffmpeg==0.4.7
 importlib_metadata==8.6.1
 importlib_resources==6.5.2
 Jinja2==3.1.6
-joblib==1.1.0
+joblib>=1.2.0,<1.4
 kiwisolver==1.4.7
 kornia==0.6.8
 lazy_loader==0.4
